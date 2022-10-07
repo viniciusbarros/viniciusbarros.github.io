@@ -1,1 +1,463 @@
-<h1>hmmm</h1>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="//www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Site e currículo virtual de Vinícius Moura Barros, Website and online CV from Vinícius Moura Barros" />
+  <meta name="keywords" content="currículo, site, vinicius, barros, portfolio, cv, resume" />
+  <title>Vinícius Barros</title>
+  
+  <link rel='stylesheet' type='text/css' href='https://viniciusbarros.herokuapp.com/stylesheet.css'/>
+  <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' href='https://viniciusbarros.herokuapp.com/magnific-popup/magnific-popup.css'/>
+  <link rel="stylesheet" type="text/css" href="https://viniciusbarros.herokuapp.com/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://viniciusbarros.herokuapp.com/css/common.css" />
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script type='text/javascript' src="https://viniciusbarros.herokuapp.com/script.js"></script>
+  <script src="https://viniciusbarros.herokuapp.com/js/modernizr.custom.js"></script>
+  <script type="text/javascript" src="https://viniciusbarros.herokuapp.com/js/modernizr.custom.79639.js"></script>
+  <script type="text/javascript" src="https://viniciusbarros.herokuapp.com/js/jquery.mixitup.min.js"></script>
+  <script type='text/javascript' src='https://viniciusbarros.herokuapp.com/magnific-popup/jquery.magnific-popup.min.js'></script>
+  <script src="magnific-popup/jquery.magnific-popup.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
+  <script type="text/javascript">
+            google.maps.event.addDomListener(window, 'load', init);
+            function init() {
+                var mapOptions = {
+                    zoom: 11,
+                    center: new google.maps.LatLng(53.3478549,-6.262689),
+                    scrollwheel: false,
+
+                    styles: [{stylers:[
+                                       {hue:'#2c3e50'},
+                                       {saturation:250}]},
+                                       {featureType:'road',elementType:'geometry',stylers:[{lightness:50},
+                                       {visibility:'simplified'}]},
+                                       {featureType:'road',elementType:'labels',stylers:[{visibility:'off'}]}]
+                };
+
+                var mapElement = document.getElementById('map');
+
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                 var marker = new google.maps.Marker({
+                            position: map.getCenter(),
+                            map: map,
+                            title: 'Click to zoom'
+                            });
+            }
+  </script>
+  </head>
+<body>
+
+  <div id="navigation">
+    <div class="navigation-wrapper">
+    <span id="navigation-name">VINÍCIUS BARROS</span>
+    <span id="item_1">about me</span>
+    <span id="item_2">CV</span>
+    <span id="item_3">my job</span>
+    <span id="item_4">contact</span>
+    </div>
+  </div>
+    <div id="form1" runat="server">
+    <div id="header-headlines">
+        <p class="lang">
+        	<a class="lang pt-br" href="//viniciusbarros.herokuapp.com/?lang=pt-br"><img src="img/pt-br.png"></img></a>
+        	<a class="lang en" href="//viniciusbarros.herokuapp.com/?lang=en"><img src="img/en.png"></img></a>
+        </p>
+        <p>Hello! I'm</p>
+        <span>Vinícius Barros</span>
+        <p>Developer and DevOps Engineer</p>
+    </div>
+        <div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a">
+        <a href="//br.linkedin.com/pub/vinícius-moura-barros/30/742/557/" target="_blank" class="hi-icon hi-icon-earth"><i class="fa fa-linkedin"></i></a>
+        </div>
+    <div class="arrow animated bounce">
+    	<span><i style="height:40px; width: 40px; font-size:2em; color:#fff" class="fa fa-arrow-down"></i></span>
+    </div>
+    <div id="header">
+        <div id='home-screen'>
+        <div id='overlay-black'></div>
+        </div>
+    </div>
+    <div id="main">
+    
+        <div id="content">
+          <div id="about">
+            <div class="headlines" id="headlines-about">ABOUT <p>ME</p>              <img id="my_photo" width="350px" src="https://viniciusbarros.herokuapp.com/images/profile.jpg" />
+              <img id="my_photo2" width="350px" src="https://viniciusbarros.herokuapp.com/images/profile2.jpg" />
+            </div>
+            <div id="about-me-box">
+              <div class="text">I was born and raised in the city of São Paulo (Brazil). I'm 32 years old and since I was a little child, technology has been my love. In 2011 I graduated from College in <strong>System Analysis and Information Technology focused on Digital Games</strong> and since 2008 I have been working in IT.<br><br>
+						  In 2009 I started working as a <strong>PHP developer</strong>, and since then, I have been involved in small to large scale projects, whose real time user demand was about 3,000 every single second. I already worked alone and also in teams up to 10 developers.<br><br>
+						  I'm used to MVC frameworks such as CodeIgniter and I do appreciate methodologies which help and make the development and code maintenance easier and faster.<br><br>
+						  I'm looking forward to improving my professional skills and also the team engagement. I do appreciate seeing the projects I'm involved in improve.<br><br>
+						  I Love the so called geek universe, animes and music. My main hobbies are to play the bass guitar, play video games and collect action figures.<br><br>
+						  My skills:</div>
+              <p class="skills-line" id="line-1"><span><strong>Development of projects/APIs </strong> (PHP/Python/JS)</span></p>
+              <p class="skills-line" id="line-2"><span><strong>DevSecOps </strong> (Automation/Pipelines/CI CD/IAC/Security at every step)</span></p>
+              <p class="skills-line" id="line-3"><span><strong>Agile Methodologies </strong> (Enthusiastic team member and scrum master)</span></p>
+              <p class="skills-line" id="line-4"><span><strong>AWS </strong> (Certified Developer Associate and cloud passionate)</span></p>
+              <p class="skills-line" id="line-5"><span><strong>Project management, analysis, prototyping, modeling</strong></span></p>
+              <p class="skills-line  last-line" id="line-6"><span><strong>Fast learner and and eager for continuous improvement</strong></span></p>
+            </div>
+          </div>
+        </div>
+        
+        <div id="content1">
+            <div id="resume">
+              <div class="headlines ingles" id="headlines-resume">CV</div>
+              <div id="resume-box">
+
+              <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-book"></i></div>
+                    <div class="year">2019</div>
+                    <p class="company">Started masters in DevOps</p>
+                    <p class="position"></p>
+                    <p class="description"></p>
+              </div>
+
+              <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-trophy"></i></div>
+                    <div class="year">Aug 2018</div>
+                    <p class="company">AWS Certified Developer - Associate</p>
+                    <p class="position"></p>
+                    <p class="description"></p>
+              </div>
+
+              <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-users"></i></div>
+                    <div class="year">Since 2017</div>
+                    <p class="company">Bank of Ireland</p>
+                    <p class="position">Senior Developer / DevOps / Scrum Master</p>
+                    <p class="description">Working in DevOps doing automation of processes (including development life-cycle, 
+                    deployments, code and user activity analysis), development of pipelines, APIs, back-end, WordPress websites and plugins, 
+                    maintenance of production projects, analysis and development of documentation for projects. 
+                    Technologies/Techniques: <i>PHP, Python, JavaScript, great diversity of AWS Services, Jenkins, Serverless, 
+                    WordPress, MySQL, NoSQL, HTML, CSS, templates, JSON, YAML, GIT, git-flow, Linux, Docker, Agile with Scrum, 
+                    Code-review, Test automation, Pair-programming.</i>
+                    </p>
+
+                    <p class="position">Some projects:</p>
+                    <ul>
+                        <li>Serverless - Deployment Management System <br>(Jenkins/Api Gateway/Lambda/DynamoDB/JIRA/E-mail) </li>
+                        <li>Serverless - Multiple APIs (ApiGateway/Lambda/DynamoDB/Python)</li>
+                        <li>Automation - Pipelines to build code, run updates, deploy infrastructure, etc<br>(Jenkins/bash/python/groovy/php)</li>
+                        <li>Process - Code development lifecycle<br>(gitflow/pull request/code review/versioning)</li>
+                        <li>DevOps - Infrastructure as code (CloudFormation, Pipelines)</li>
+                        <li>CI - Static code analysis<br>(CodeCommit/SNS/Lambda/Jenkins/Docker/SonarQube)</li>
+                        <li>CI/Security - Flag suspicious merges<br>(CodeCommit/SNS/Lambda/Jira)</li>
+                        <li>Monitoring - Grafana for monitoring infrastructure and custom metrics<br>(Grafana/Ec2/CloudFormation/ApiGateway/Lambda)</li>
+                        <li>Security - WordPress plugin to collect application/webserver info for patching management<br>(WordPress/PHP)</li>
+                        <li>Security - WordPress plugin to collect application/webserver info for patching management<br>(WordPress/PHP)</li>
+                    </ul>
+
+                </div>
+              
+              <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-trophy"></i></div>
+                    <div class="year">Oct 2016</div>
+                    <p class="company">Certified Scrum Master</p>
+                    <p class="position"></p>
+                    <p class="description"></p>
+              </div>
+              <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-users"></i></div>
+                    <div class="year">2015 - 2017</div>
+                    <p class="company">Simply Zesty (allocated in Bank of Ireland)</p>
+                    <p class="position">Senior PHP Developer / Scrum Master</p>
+                    <p class="description">Senior web developer and Scrum Master. 
+                    Backend analysis and development, Wordpress plugin development, CMS and website code maintenance. 
+                    Technologies: <i>PHP, Javascript, jQuery, MySQL, HTML, CSS, Twig template, Wordpress, git, git flow, AWS infrastructure tools</i>.</p>
+                </div>
+                
+                <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-terminal"></i></div>
+                    <div class="year">2014 - 2015</div>
+                    <p class="company">Freelancer</p>
+                    <p class="position">Analyst and programmer</p>
+                    <p class="description">Analyst and programmer</p>
+                </div>
+
+                <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-book"></i></div>
+                    <div class="year">Sep - 2014</div>
+                    <p class="company">TOEFL ITP</p>
+                    <p class="position">Grade: 550 (up to 677)</p>
+                    <p class="description">Listening Comprehension: 55 (up to 68)<br>
+							  Structure and Written Expression: 56 (up to 68)<br>
+							  Reading Comprehension: 54 (up to 67)</p>
+                </div>
+                
+                <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-users"></i></div>
+                    <div class="year">2013 - 2014</div>
+                    <p class="company">Ultradownloads</p>
+                    <p class="position">PHP Programmer</p>
+                    <p class="description">Analysis, development and maintenance of web (front-end and back-end) systems, APIs integration (Twitter, Instagram, Mailchimp, Linkedin), development of more than 90 Landing Pages. Used Technologies: PHP, MySQL, JavaScript, jQuery, HTML, CSS and version management with GIT.</p>
+                </div>
+
+                <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-users"></i></div>
+                    <div class="year">2012</div>
+                    <p class="company">BR Mobile</p>
+                    <p class="position">Web Developer</p>
+                    <p class="description">Development and maintenance of websites and web services with version control managed by SVN using the following technologies: PHP (pure or with CodeIgniter framework), jQuery, JavaScript, Mysql. Front-end development using HTML and CSS.</p>
+                </div>
+
+                <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-trophy"></i></div>
+                    <div class="year">2011</div>
+                    <p class="company">1 Month studying english</p>
+                    <p class="position">Chicago - IL / USA</p>
+                    <p class="description">Award by been the best graduated student among all students from <i>Faculdade de Tecnologia</i> (FATEC) of São Caetano do Sul, São Paulo in 2011.</p>
+                </div>
+
+                <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-book"></i></div>
+                    <div class="year">2011</div>
+                    <p class="company">Graduated at Faculdade de Tecnologia (FATEC)</p>
+                    <p class="position">Analysis and Systems Development</p>
+                    <p class="description last-description">Focused on digital games</p>
+                </div>
+
+                <div class="selection-resume">
+                    <div class="icons"><i class="fa fa-users"></i></div>
+                    <div class="year">2010</div>
+                    <p class="company">24\7 Inteligencia Digital</p>
+                    <p class="position">Analyst and programmer</p>
+                    <p class="description">Analysis of requirements and projects due to perform programming corrections. MVC pattern with version control managed by SVN with the following technologies: PHP (with CodeIgniter framework), Java, Jquery, JavaScript, MySQL, HTML, CSS.</p>
+                </div>
+
+                <div class="selection-resume last-selection" >
+                    <div class="icons"><i class="fa fa-users"></i></div>
+                    <div class="year">2009</div>
+                    <p class="company">Cody Informática</p>
+                    <p class="position">Analyst and programmer</p>
+                    <p class="description">Project management, systems analysis and solutions developer. UML Documentation, programming using Object Oriented PHP and also structured, database modeling.</p>
+                </div>
+
+              </div>
+            </div>
+        </div>
+        <div id="content2">
+              <div id="work">
+              <div class="headlines" id="headlines-portfolio">MY <p>JOB</p>                <ul id='filter'>
+                  <li class="filter" data-filter="all">All</li>
+                  <li class="filter" data-filter="front-end">Front-end</li>
+                  <li class="filter" data-filter="back-end">Back-end</li>
+                  <li class="filter" data-filter="front-back-end">Front and back-end</li>
+                </ul>
+              </div>
+              <div id='gallery'>
+                <ul class="ch-grid" id='Grid'>
+
+                  <li class="mix front-back-end">
+                    <a  href="//selecter.com.br" target="_blank">
+					  <div class="ch-item selecter">
+						<div class="ch-info">
+  						  <h3>Selecter - Portal de jogos</h3>
+						  <p>Visit the website</p>
+						</div>
+					  </div>
+                    </a>
+				  </li>
+
+                  <li class="mix front-back-end">
+                    <a  href="//euconfessoque.com.br" target="_blank">
+					  <div class="ch-item ecq">
+						<div class="ch-info">
+  						  <h3>Eu confesso que</h3>
+						  <p>Visit the website</p>
+						</div>
+					  </div>
+                    </a>
+				  </li>
+
+                  <li class="mix front-back-end">
+                    <a  href="//comparedestinos.com.br" target="_blank">
+					  <div class="ch-item comparedestinos">
+						<div class="ch-info">
+  						  <h3>Compare destinos</h3>
+						  <p>Visit the website</p>
+						</div>
+					  </div>
+                    </a>
+				  </li>
+
+                  <li class="mix front-end">
+                    <a  href="//baixeme.com.br/angry-birds-1/" target="_blank">
+					  <div class="ch-item angrybirds">
+						<div class="ch-info">
+  						  <h3>Angry Birds</h3>
+						  <p>Landing page</p>
+						</div>
+					  </div>
+                    </a>
+				  </li>
+
+                  <li class="mix front-end">
+                    <a  href="//baixeme.com.br/plants-vs-zombies/" target="_blank">
+					  <div class="ch-item plantsvszombies">
+						<div class="ch-info">
+  						  <h3>Plants vs Zombies</h3>
+						  <p>Landing page</p>
+						</div>
+					  </div>
+                    </a>
+				  </li>
+
+                  <li class="mix front-end">
+                    <a class="test-popup-link" href="images/jobs/canaltech-mobile.png">
+                      <div class="ch-item canaltech-mobile">
+                        <div class="ch-info">
+                          <h3>Portal Canaltech</h3>
+                          <p>Versao mobile</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="mix front-end">
+                    <a  href="//cup.selecter.com.br/" target="_blank">
+                      <div class="ch-item selecter-cup">
+                        <div class="ch-info">
+                          <h3>Selecter cup</h3>
+                          <p>Landing page</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  
+                  <li class="mix back-end">
+                    <a class="test-popup-link" href="images/jobs/ativos.png">
+                      <div class="ch-item ativos">
+                        <div class="ch-info">
+                          <h3>Assets mgmt.</h3>
+                          <p>Own corporate system</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+ 
+                  <li class="mix back-end">
+                    <a class="test-popup-link" href="images/jobs/twitter.png">
+                      <div class="ch-item twitter">
+                        <div class="ch-info">
+                          <h3>Followers mgmt.</h3>
+                          <p>Using twitter API</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+ 
+                  <li class="mix front-back-end">
+                    <a href="//meumenudiario.com.br/" target="_blank">
+                      <div class="ch-item mmd">
+                        <div class="ch-info">
+                          <h3>Meu menu diário</h3>
+                          <p>Visit the website</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+ 
+                  <li class="mix front-back-end">
+                    <a href="//goaulas.com.br/" target="_blank">
+                      <div class="ch-item goaulas">
+                        <div class="ch-info">
+                          <h3>Rede social go aulas</h3>
+                          <p>Visit the website</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+              </div>
+        </div>
+        <div id="content3">
+            <div id="contact">
+              <div class="headlines" id="headlines-contact">KEEP <p>IN</p><p>TOUCH</p>                <div>
+                  <p>083 453 7507 <i class="fa fa-phone"></i></p>
+                  <p><a href="mailto:vmbarross@gmail.com">vmbarross@gmail.com</a> <i class="fa fa-envelope "></i></p>
+                  <p>viniciusbarros.info<i class="fa fa-globe  "></i></p>
+                  <p>Dublin - Ireland<i class="fa fa-map-marker"></i></p>
+                </div>
+              </div>
+              <div id="resume-box">
+
+                <div class="selection-resume">
+                If you want to contact me to some job proposal or meeting, or just to say hello, fell free to fill the form below. I'll answer you as soon as I can.                </div>
+                <div id='contact-form'>
+                <form id="contactform" name="contactform">
+                	<input type="hidden" id='msgPreencherForm' value="Please fill correct all form fields" />
+                    <p>
+                    <input type='text' name='name' class="input name" placeholder='Your name'>
+                    </p>
+                    <p>
+                    <input type='text' name='email' class="input email" placeholder='Your e-mail'>
+                    </p>
+                    <p>
+                    <textarea name="message" cols="88" rows="6" class="textarea message" placeholder='Your message'></textarea>
+                    </p>
+                    <p id='p-submit'>
+                    <input id="submit"  type="submit" name="submit" value="Send your message" class="button">
+                    </p>
+                    <div id="success"></div>
+                </form>
+                </div>
+              </div>
+            </div>
+        </div>
+       
+        <div id="content4">
+          <div id="selection-download">
+          <div id="download"><a target="_blank" href="files/CV-Vinicius-Moura-Barros.pdf">Download .PDF</a></div>
+          <div id="socila-complet">
+            <a href="//br.linkedin.com/in/vmbarross" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="//instagram.com/pa3ckgts" target="_blank"><i class="fa fa-instagram"></i></a>
+          </div>
+          </div>
+        </div>
+    </div>
+    <p id="back-top">
+		<a href="#top"><span><i class="fa fa-arrow-up"></i></span></a>
+	  </p>
+
+    <script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById('header').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
+
+    <script type="text/javascript">
+    $(function(){
+    	$('#Grid').mixitup();
+    	$('.test-popup-link').magnificPopup({type:'image', gallery:{enabled:true}});
+    });
+    </script>
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54306769-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+</html>
